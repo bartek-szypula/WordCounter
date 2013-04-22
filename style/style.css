@@ -1,0 +1,77 @@
+div { /* padding nie wpływa na width */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#wrap {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	font: 15px/20px Helvetica, Arial, sans-serif;
+	size:;
+}
+
+#wrap h2 {
+	text-align: center;
+}
+
+form {
+	width: 600px;
+	margin: 0 auto;
+}
+
+p.notice {
+	font-weight: bold;
+	font-size: 17px;
+	color: red;
+	text-align: center;
+}
+
+form ul {
+	list-style: none;
+}
+
+form li {
+	display: inline;
+}
+
+label {
+	display: block;
+	margin: 7px 0;
+}
+
+form li:nth-child(6) {
+	font-weight: bold;
+}
+
+form li:nth-child(7) {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+input.text {
+	width: 300px;
+}
+
+button {
+	padding: 5px 15px;
+}
+
+div#db {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#db h2 {
+	text-align: left;
+	margin-left: 45px;
+}
+
+h2.data {
+	margin-top: 40px;
+}
